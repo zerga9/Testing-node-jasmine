@@ -4,7 +4,8 @@
   "description": "\"Simple Hello World demo app.\"",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/jasmine-node spec"
+    "test": "./node_modules/.bin/jasmine-node spec",
+    "start": "node ./app/hello_world.js"
   },
   "repository": {
     "type": "git",
